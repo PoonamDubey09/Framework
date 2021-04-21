@@ -12,7 +12,7 @@ public class LoginPage {
 	
 	public LoginPage(WebDriver ldriver) {
 		
-		this.driver=ldriver;
+		this.driver= ldriver;
 	}
 	
 	@FindBy(name="email1") WebElement uname;
