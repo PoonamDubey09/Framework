@@ -19,7 +19,6 @@ public class ConfigDataProvider {
 			
 			fis = new FileInputStream(src);
 		
-		
 		pro= new Properties();
 		pro.load(fis);
 		}
