@@ -3,6 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="Chrome.ExtentReportDemo">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Chrome.ExtentReportDemo -->
+      <class name="com.learnAutomation.testcases.TestCaseWithoutFramework">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.learnAutomation.testcases.TestCaseWithoutFramework -->
       <class name="com.learnAutomation.testcases.LoginTest">
         <methods>
           <include name="setup"/>

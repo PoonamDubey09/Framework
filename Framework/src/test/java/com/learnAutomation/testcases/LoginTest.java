@@ -1,22 +1,9 @@
 package com.learnAutomation.testcases;
 
-import java.io.File;
-
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import com.aventstack.extentreports.ExtentReporter;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.learnAutomation.pages.LoginPage;
-import com.learnAutomation.utility.BrowserFactory;
-import com.learnAutomation.utility.ExcelDataProvider;
-import com.learnAutomation.utility.Helper;
 
 public class LoginTest extends BaseClass{
 
